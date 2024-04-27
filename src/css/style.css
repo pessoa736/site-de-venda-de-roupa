@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: "New-times-roman";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px ;
+    padding: 10px 10px;
+    min-height: 100vh;
+    background: linear-gradient(to right, #050505, #131313);
+    flex-direction: column;
+    
+}
+
+
+body h1{
+    margin-top: 5px;
+    color: #fff;
+}
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    padding-left: 5px;
+    background-color:#131313 ;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.space {
+    height: 90px;
+}
+
+.catalogo_container{
+    justify-content: left;
+    align-items: flex-start;
+    background: #000000;
+    display: flex;
+    margin: 20px 15px;
+    width: auto;
+    overflow-x: auto;
+    overflow-y: none;
+}
+
+
+.produto {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display:inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    color: #fff;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    margin-top: 0;
+}
+
+.produto p {
+    margin: 5px 0;
+    display: flex;
+}
+
+.produto a {
+    text-decoration: none;
+    color: #fff
+}
+.preco {
+    color: #5f5;
+
+}
+
+.sidebar a{
+    font-size: 18;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;   
+}
